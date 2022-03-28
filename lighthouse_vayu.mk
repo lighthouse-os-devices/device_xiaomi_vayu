@@ -14,6 +14,8 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit common Project Lighthouse configurations
 $(call inherit-product, vendor/lighthouse/config/common.mk)
 
+LIGHTHOUSE_BUILD_TYPE := OFFICIAL
+
 PRODUCT_NAME := lighthouse_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
